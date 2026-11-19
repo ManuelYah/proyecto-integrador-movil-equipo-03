@@ -1,0 +1,25 @@
+﻿# Resultados de pruebas - guia_turistica
+Fecha: 2026-11-17 09:10
+
+$ dart format .
+Formatted 22 files (0 changed) in 0.30 seconds.
+
+$ flutter analyze
+Analyzing guia_turistica...                                     
+No issues found! (ran in 4.3s)
+
+$ flutter test
+00:00 +0: loading C:/Practica 10/guia_turistica/test/unidad_test.dart
+00:00 +0: C:/Practica 10/guia_turistica/test/unidad_test.dart: Lugar se serializa y deserializa
+00:00 +1: C:/Practica 10/guia_turistica/test/unidad_test.dart: Clima interpreta el JSON de Open-Meteo
+00:00 +2: C:/Practica 10/guia_turistica/test/unidad_test.dart: Validadores
+00:00 +3: C:/Practica 10/guia_turistica/test/unidad_test.dart: LugarRepository guarda ordenado y elimina
+00:00 +4: C:/Practica 10/guia_turistica/test/unidad_test.dart: ClimaService consulta y envía coordenadas
+00:00 +5: C:/Practica 10/guia_turistica/test/unidad_test.dart: ClimaService error HTTP
+00:00 +6: C:/Practica 10/guia_turistica/test/unidad_test.dart: ClimaService JSON inválido
+00:00 +7: C:/Practica 10/guia_turistica/test/unidad_test.dart: ClimaService sin conexión
+00:02 +8: C:/Practica 10/guia_turistica/test/widget_test.dart: Bitácora vacía y carga de demostración
+00:03 +9: C:/Practica 10/guia_turistica/test/widget_test.dart: El formulario valida campos y calificación
+00:03 +10: C:/Practica 10/guia_turistica/test/widget_test.dart: Flujo completo: agregar, notificar y ver detalle
+00:04 +11: C:/Practica 10/guia_turistica/test/widget_test.dart: Clima aquí muestra error y permite reintentar
+00:05 +12: All tests passed!

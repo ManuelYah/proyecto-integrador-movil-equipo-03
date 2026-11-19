@@ -1,0 +1,30 @@
+﻿# Resultados de pruebas - reporte_incidencias
+Fecha: 2026-11-17 09:09
+
+$ dart format .
+Formatted 22 files (0 changed) in 0.77 seconds.
+
+$ flutter analyze
+Analyzing reporte_incidencias...                                
+No issues found! (ran in 8.7s)
+
+$ flutter test
+00:00 +0: loading C:/Practica 10/reporte_incidencias/test/unidad_test.dart
+00:00 +0: C:/Practica 10/reporte_incidencias/test/unidad_test.dart: Modelo Reporte toJson / fromJson conserva los datos
+00:00 +1: C:/Practica 10/reporte_incidencias/test/unidad_test.dart: Modelo Reporte copyWith marca como sincronizado
+00:00 +2: C:/Practica 10/reporte_incidencias/test/unidad_test.dart: Validadores título
+00:00 +3: C:/Practica 10/reporte_incidencias/test/unidad_test.dart: Validadores descripción
+00:00 +4: C:/Practica 10/reporte_incidencias/test/unidad_test.dart: Validadores categoría
+00:00 +5: C:/Practica 10/reporte_incidencias/test/widget_test.dart: La pantalla de inicio muestra las opciones
+00:00 +6: C:/Practica 10/reporte_incidencias/test/widget_test.dart: La pantalla de inicio muestra las opciones
+00:00 +7: C:/Practica 10/reporte_incidencias/test/widget_test.dart: La pantalla de inicio muestra las opciones
+00:00 +8: C:/Practica 10/reporte_incidencias/test/widget_test.dart: La pantalla de inicio muestra las opciones
+00:00 +9: C:/Practica 10/reporte_incidencias/test/widget_test.dart: La pantalla de inicio muestra las opciones
+00:00 +10: C:/Practica 10/reporte_incidencias/test/widget_test.dart: La pantalla de inicio muestra las opciones
+00:00 +11: C:/Practica 10/reporte_incidencias/test/widget_test.dart: La pantalla de inicio muestra las opciones
+00:00 +12: C:/Practica 10/reporte_incidencias/test/widget_test.dart: El formulario valida los campos obligatorios
+00:01 +13: C:/Practica 10/reporte_incidencias/test/widget_test.dart: Flujo completo: guardar, notificar, listar y ver detalle
+00:01 +14: C:/Practica 10/reporte_incidencias/test/widget_test.dart: Listado vacío permite cargar demostración
+00:02 +15: C:/Practica 10/reporte_incidencias/test/widget_test.dart: Sincronización: muestra avisos y sincroniza pendientes
+00:02 +16: C:/Practica 10/reporte_incidencias/test/widget_test.dart: Sincronización: sin conexión muestra error y reintento
+00:02 +17: All tests passed!
